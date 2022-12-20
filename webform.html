@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>İLETİŞİM</title>
+<style>
+body{background-color:#78909C; margin-left:230; margin-right:230;}
+
+h1{color:#EF6C00; text-align:center;}
+
+hr{border-color:#EF6C00;  }
+
+#önbilgi{color:white;font-weight:bold; text-align:center;}
+
+#sonbilgi{color:white;font-weight:bold; text-align:center}
+
+#gönder{background-color:green; color:white;}
+
+#sıfırla{background-color:red; color:white; }
+
+#buton{text-align:center;}
+</style>
+</head>
+<body>
+<form>
+<h1>İLETİŞİM</h1>
+<hr>
+<div id="önbilgi">
+ ADI:<br><input type="text" name="isim" placeholder="adınızı girin" /><br><br>
+ SOYADI:<br><input type="text" name="soyad" placeholder="soyadınızı girin"/><br><br>
+E-MAİL:<br><input type="text" name="tc" placeholder="mail girin" /><br><br>
+TELEFON NO:<br><input type="text" name="numara" placeholder="numaranızı girin"/><br><br>
+</div>
+<hr><br>
+<div id="sonbilgi">
+<p>EKLEMEK İSTEDİĞİNİZ TÜR:</p>
+<input type="radio" name="k" checked="on">MAKALE<br>
+<textarea rows="50" cols="50" placeholder="Makaleden kısaca bahsedin"></textarea><br><br><br>
+<input type="radio" name="k" >ŞİİR<br>
+<textarea rows="30" cols="50" placeholder="Şiirden bir parça yazın"></textarea ><br><br><br>
+<input type="radio" name="k">GÖRSEL<br>
+<input type="file"/><br><br><br><br>
+<hr>
+</div>
+<div id="buton">
+<a href=" mailto:mrv231788@gmail.com"><input type="submit" id="gönder" value="GÖNDER"></a>
+<input type="reset" id="sıfırla" value="SIFIRLA">
+</div>
+</form>
+</body>
+</html>
